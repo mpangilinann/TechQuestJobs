@@ -1,0 +1,2021 @@
+
+
+body, header, nav, main, footer, h1, div, img{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #35434E;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+}
+
+
+
+
+header {
+    position: sticky;
+    top: 0;
+    background: #35434E;
+    color: #f1f1f1;
+    z-index: 100;
+  }
+
+
+
+
+
+
+  .desktop-tablet-hidden, .hamburger{
+    display: none;
+  }
+
+
+
+
+/* Logo styling */
+.image-logo img {
+    height: 143px; 
+    width: 275px;  
+    height: 100%; 
+}
+
+/* Navigation styling */
+nav {
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+nav a:hover {
+    color: #66bb6a; 
+}
+
+/* Navigation menu links */
+.menu-links {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin: 0 20px 0 0; 
+}
+
+.menu-links li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.nav-bar a {
+    font-family: 'Roboto Slab';
+    font-size: 14px;
+}
+
+nav.nav-bar {
+    margin-right: 100px;
+}
+
+/* Login and Signup section */
+.auth-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Separator line */
+.separator {
+    margin-right: 30px; 
+    margin-left: 30px;
+    color: white;
+    font-size: 80px;
+}
+
+/* Stack LOGIN and SIGNUP vertically */
+.login-signup {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+}
+
+.login-signup a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* ================================================================ */
+
+.slogan{
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.slogan img{
+    width: 100%;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'dm-serif-display';
+    font-size: 30px;
+}
+
+
+
+
+/* ================================================================ */
+
+.about-title{
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 9000;
+    font-family: 'Roboto Slab';
+}
+
+.about-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 150px;
+    text-align: center;
+    line-height: 45px;
+    font-family: 'Roboto Slab';
+}
+
+
+/* ================================================================ */
+
+.about-background{
+    position: relative;
+    text-align: center;
+    margin: auto;
+}
+
+.six-info{
+    position: absolute;
+    top: 10%;
+    bottom: 10%;
+    left: 5%;
+    right: 5%;
+}
+
+.about-background img{
+    height: 338px;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+
+.six-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.six-about {
+    display: flex; 
+}
+
+.six-about img {
+    width: 70px; 
+    height: 70px; 
+    object-fit: cover; 
+    margin-right: 20px; 
+}
+
+.six-about-content {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.six-about h3 {
+    margin: 0;
+    font-size: 20px; 
+    font-family: 'Roboto Slab'; 
+}
+
+.six-about p {
+    margin: 0; 
+    font-family: 'Roboto Slab'; 
+    font-size: 14px; 
+}
+
+
+
+/* ================================================================ */
+
+.job-section{
+    background-color: #FFFFFF;
+    height: 1153px;
+}
+
+.job-h3{
+    font-size: 48px;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    padding-top: 100px;
+}
+
+.job-h3-green{
+    color: #11B719;
+}
+
+
+.square{
+   background-color: #EFEFEF;
+   width: 226px;
+   height: 204px;
+   border-radius: 32px;
+   margin-top: 80px;
+}
+
+.square img{
+    margin-right: 75px;
+    margin-left: 75px;
+    margin-top: 30px;
+}
+
+.square h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.square h4{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Mulish';
+    color: #11B719;
+    margin-bottom: 30px;
+}
+
+.job-listings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 180px;
+    
+}
+
+.job-listings a{
+    text-decoration: none;
+}
+
+.job-content{
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ================================================================ */
+
+.tips-section{
+    background-color: #EFEFEF;
+    height: 2000px;
+}
+
+.tips-h3{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto Slab';
+    padding-top: 10px;
+    margin-bottom: 100px;
+}
+
+.six-tips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, auto);  
+    gap: 20px;
+}
+
+.tip {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.rectangle {
+    background-color: #FFFFFF;
+    border-radius: 47px;
+    padding: 20px; 
+    height: 170px; 
+    width: 580px;
+}
+
+.rectangle li{
+    font-size: 15px;
+    font-family: 'Roboto Slab';
+    padding-top: 15px;
+    line-height: 34px;
+    
+}
+
+.rectangle img {
+    float: right; 
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.check img {
+    margin-bottom: -90px; /
+}
+
+
+
+
+/* ================================================================ */
+
+.interview h3{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto Slab';
+    padding-top: 100px;
+}
+
+.video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+}
+
+.first-image{
+    opacity: 0.5;
+}
+
+.second-image{
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 24%;
+    margin-top: 15%;
+}
+
+.third-image{
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 45%;
+    margin-top: 30%;
+}
+
+
+/* ================================================================ */
+
+.resources-white h3{
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto Slab';
+    padding-top: 200px;
+    
+}
+
+.resources-white{
+    background-color: #FFFFFF;
+    height: 1554px;
+    margin-top: -50px;
+}
+
+.break-line{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+.resources-bg-grey{
+    width: 100%;
+    height: 1000px;
+}
+
+.resourcesBG{
+    position: relative;
+}
+
+.book-reccomendations{
+    background-color: #D9D9D9;
+    height: 46px;
+    width: 302px;
+    border-radius: 7px;
+    position: absolute;
+    border: 2px solid black;
+    top: 50px;
+    left: 180px;
+}
+
+.book-reccomendations h4{
+    font-size: 24px;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    margin: 0;
+    line-height: 50px;
+}
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px;
+    width: 450px;
+    margin-left: 50px; 
+}
+
+
+.black-rectangle {
+    background-color: #000000;
+    height: 369px;
+    width: 195px;
+    border-radius: 16px;
+    position: relative;
+}
+
+
+.white-rectangle {
+    background-color: #EFEFEF;
+    height: 350px;
+    width: 185px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+
+.book-content img {
+    position: absolute;
+    top: 15px;
+    left: 12px;
+}
+
+
+.book-content h6 {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Inter';
+    top: 220px;
+    left: 10px;
+}
+
+
+.book-content p {
+    position: absolute;
+    font-size: 12px;
+    font-weight: light;
+    font-family: 'Inter';
+    top: 260px;
+    left: 10px;
+}
+
+
+.view-book {
+    position: absolute;
+    height: 30px;
+    width: 166px;
+    border: 2px solid black;
+    border-radius: 12px;
+    top: 300px;
+    left: 8px;
+    z-index: 1;
+}
+
+
+.view-book h4 {
+    font-size: 20px;
+    font-family: 'Gabarito';
+    text-align: center;
+    position: absolute;
+    left: 25px;
+    top: -23px;
+}
+
+
+.grid-container{
+    position: absolute;
+    top: 150px;
+    left: 70px;
+}
+
+/* ================================================================ */
+
+.resources-table{
+    background-color: #D9D9D9;
+    height: 46px;
+    width: 302px;
+    border-radius: 7px;
+    border: 2px solid black;
+    position: absolute;
+    top: 50px;
+    right: 180px;
+}
+
+.resources-table h4{
+    font-size: 24px;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    margin: 0;
+    line-height: 50px;
+}
+
+
+.table{
+    position: absolute;
+    top: 250px;
+    display: flex;
+    justify-content: right;
+    right: 70px;
+    width: 100%;
+}
+
+
+
+table {
+    width: 540px; 
+    height: 448px;
+    border-collapse: collapse; 
+}
+th, td {
+    border: 5px solid black; 
+    padding: 1px; 
+    text-align: center; 
+}
+th {
+    background-color: #242326; 
+    font-size: 20px;
+    font-family: 'Gabarito';
+    color: #FFFFFF;
+    height: 44px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.resources{
+    width: 311px;
+}
+
+.category{
+    width: 123px;
+}
+
+.link{
+    width: 89px;
+}
+
+.table-left{
+    width: 123px;
+    height: 62px;
+    background-color: #48454A;
+    font-size: 14px;
+    font-family: 'Gabarito';
+    color: #FFFFFF;
+}
+
+.table-middle{
+    background-color: #FFFFFF;
+    font-size: 13px;
+    font-family: 'Gabarito';
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+.table-right{
+    background-color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Gabarito';
+    color: #0066FF;
+}
+
+.table-desc{
+    font-size: 10px;
+    font-family: 'Gabarito';
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+
+
+/* ================================================================ */
+
+
+
+.green-SU{
+    position: relative;
+    
+}
+
+.green-SU img{
+    width: 100%;
+    height: 300px;
+}
+.want-the-best h2{
+    font-size: 36px;
+    font-family: 'Roboto Slab';
+    color: #FFFFFF;
+    font-weight: 500;
+    bottom: 150px;
+    left: 200px;
+    position: absolute;
+}
+
+.want-the-best h4{
+    font-size: 24px;
+    font-family: 'Roboto Slab';
+    color: #FFFFFF;
+    font-weight: 300;
+    position: absolute;
+    bottom: 110px;
+    left: 220px;
+}
+
+.sign-up{
+    background-color: #FFFFFF;
+    width: 125px;
+    height: 40px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 135px;
+    left: 520px;
+}
+
+.sign-up h4{
+    font-size: 13px;
+    font-family: 'Roboto Slab';
+    color: #000000;
+    font-weight: 400;
+    position: absolute;
+    bottom: -5px;
+    left: 25px;
+}
+
+
+
+
+/* ================================================================ */
+
+
+
+.hl-top{
+    border: 1px solid white;
+    width: 1306px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+.hl-bottom{
+    border: 1px solid white;
+    width: 1306px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 200px;
+}
+
+.copyright{
+    font-size: 13px;
+    font-family: 'Roboto Slab';
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+footer a:hover {
+    color: #66bb6a; 
+}
+
+.footer-logo{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.footer-nav{
+    font-size: 15px;
+    font-family: 'Roboto Slab';
+    color: #FFFFFF;
+    margin-top: -120px;
+    margin-bottom: -120px;
+    margin-left: 500px;
+}
+
+.footer-content{
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.socmed-icons{
+   flex-direction: column;
+   width: 30px;
+   height: 30px;
+   margin-left: 800px;
+   margin-top: -175px;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icon-names{
+    font-size: 15px;
+    font-family: 'Roboto Slab';
+    color: #FFFFFF;
+    margin-left: 850px;
+    margin-top: -32px;
+    line-height: 32px;
+}
+
+
+
+
+/* ================================================================ */
+
+.login-bg{
+    background-color: #EFEFEF;
+    height: 772px;
+}
+
+.login-box{
+    background-color: #FFFFFF;
+    height: 635px;
+    width: 547px;
+    border-radius: 45px;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    position: absolute;
+    top: 215px;
+    left: 450px;
+}
+
+.content h4{
+    font-size: 48px;
+    font-family: 'Rufina';
+    text-align: center;
+}
+
+.content img{
+    position: absolute;
+    top: 130px;
+    left: 210px;
+}
+
+
+
+.login-user {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+   
+    
+}
+
+.login-user form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-user input {
+    margin-bottom: 40px; 
+    padding: 10px;
+    width: 100%;
+}
+
+.login-lower {
+    display: flex;
+    justify-content: center;
+}
+
+
+#username, #password{
+    height: 67px;
+    width: 462px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+}
+
+#login-button{
+    width: 462px;
+    height: 68px;
+    border-radius: 34px;
+    background-color: #11B719;
+    border: none;
+    font-size: 40px;
+    font-family: 'Roboto Slab';
+    color: #FFFFFF;
+}
+
+.login-lower h4{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    top: 330px;
+   
+}
+
+.login-lower a{
+    text-decoration: none;
+    color: #11B719;
+}
+
+
+
+/* ================================================================ */
+
+.signup-bg{
+    background-color: #EFEFEF;
+    height: 947px;
+}
+
+.signup-box{
+    background-color: #FFFFFF;
+    height: 809px;
+    width: 547px;
+    border-radius: 45px;
+    box-shadow: 0px 0px 5px 5px lightgrey;
+    position: absolute;
+    top: 215px;
+    left: 450px;
+}
+
+.signup-content h4{
+    font-size: 48px;
+    font-family: 'Rufina';
+    text-align: center;
+}
+
+.signup-content img{
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+
+.signup-user {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+   
+    
+}
+
+.signup-user form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.signup-user input {
+    margin-bottom: 40px; 
+    padding: 10px;
+    width: 100%;
+}
+
+.signup-lower {
+    display: flex;
+    justify-content: center;
+}
+
+
+.signup-lower h4{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    top: 480px;
+   
+}
+
+
+.signup-lower a{
+    text-decoration: none;
+    color: #11B719;
+}
+
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================================ */
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center; 
+        padding: 10px 20px; 
+        background-color: #35434E; 
+    }
+
+    
+    .image-logo img {
+        height: 100px; 
+        max-height: 100px; 
+        width: auto;
+        max-width: 100%; 
+    }
+
+    nav {
+        display: flex; 
+        align-items: center; 
+        flex-grow: 1; 
+    }
+
+    
+    .menu-links {
+        display: flex;
+        list-style: none; 
+        padding: 0;
+        margin: 0; 
+        flex-grow: 1; 
+        justify-content: space-around; 
+    }
+
+    .menu-links li {
+        margin: 0; 
+    }
+
+    nav a {
+        text-decoration: none; 
+        color: white; 
+        font-size: 16px; 
+        padding: 10px; 
+    }
+
+    .nav-bar a{
+        font-size: 13px;
+        margin-left: 15px;
+    }
+
+    nav a:hover {
+        color: #66bb6a; 
+    }
+
+    
+    .auth-links {
+        display: flex; 
+        align-items: center; 
+        margin-left: auto; 
+    }
+
+    .separator {
+        margin: 0 10px; 
+        color: white; 
+        font-size: 60px; 
+    }
+
+    
+    .login-signup {
+        display: flex; 
+        flex-direction: column; 
+        gap: 5px; 
+        align-items: center; 
+        margin-right: -30px;
+    }
+
+    .login-signup a {
+        padding: 5px;
+        text-decoration: none; 
+        color: white; 
+        font-size: 13px; 
+    }
+
+    /* ================================================================ */
+
+    
+    .slogan {
+        position: relative; 
+        text-align: center; 
+        margin: auto; 
+        padding: 20px 0; 
+    }
+
+    .slogan img {
+        width: 100%; 
+        max-width: 100%; 
+        height: auto; 
+    }
+
+    .center {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        font-family: 'dm-serif-display'; 
+        font-size: 20px; 
+        padding: 0 10px; 
+    }
+
+    /* ================================================================ */
+
+
+    .about-title {
+        font-size: 36px; 
+        margin-top: 40px; 
+        margin-bottom: 40px; 
+        
+    }
+
+    .about-description {
+        font-size: 16px; 
+        line-height: 30px; 
+        margin-bottom: 100px; 
+        padding: 0 20px; 
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: center;
+    }
+
+
+    /* ================================================================ */
+
+   
+    .six-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .six-about {
+        display: flex;
+        align-items: center;
+        width: 48%; 
+        margin-bottom: 20px;
+    }
+
+    .six-about img {
+        width: 80px; 
+        height: auto;
+        margin-right: 20px;
+    }
+
+    .six-about-content {
+        text-align: left;
+    }
+
+    .six-about-content h3 {
+        font-size: 20px;
+        font-family: 'Roboto Slab';
+        color: #000;
+        margin: 0;
+    }
+
+    
+    .six-about-content p {
+        display: none;
+    }
+
+
+    /* ================================================================ */
+
+
+    .job-section{
+        height: 1400px;
+    }
+
+    .job-listings{
+        margin-left: 90px;
+    }
+
+    /* ================================================================ */
+
+    .tips-section{
+        height: 1800px;
+    }
+
+    .tips-desc{
+        display: none;
+    }
+
+    .tip li{
+        list-style: none;
+        font-size: 16px;
+        font-weight: bolder;
+        margin-left: -40px;
+    }
+
+    .rectangle img{
+        height: 70px;
+        width: 70px;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .rectangle{
+        height: 74px;
+        width: 280px;
+        border-radius: 47px;
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+
+ 
+    .tab-tips-desc{
+        display: none;
+    }
+
+    /* ================================================================ */
+
+    
+    .first-image{
+        display: none;
+    }
+    
+    .second-image{
+        opacity: 1;
+        position: absolute;
+        left: -60px;
+        
+    }
+    
+    .third-image{
+        opacity: 1;
+        position: absolute;
+        left: 10px;
+        top: 30px;
+    }
+
+
+
+     /* ================================================================ */
+
+
+     .resources-bg-grey{
+        height: 1800px;
+     }
+
+     .break-line{
+        display: none;
+     }
+
+     .book-reccomendations {
+        width: 302px;
+        height: 46px;
+        left: 260px;
+     }
+
+     .grid-container{
+        left: 140px;
+     }
+
+
+     /* ================================================================ */
+
+    
+     .resources-table{
+        margin-top: 1000px;
+        left: 260px;
+        width: 302px;
+        height: 46px;
+     }
+
+     .table{
+        margin-top: 900px;
+        right: 120px;
+     }
+
+
+
+     /* ================================================================ */
+
+     footer{
+        margin-top: 1000px;
+     }
+
+     .hl-top, .hl-bottom{
+        width: 750px;
+        margin-left: 30px;
+     }
+
+     .hl-bottom{
+        margin-top: 100px;
+     }
+
+     .tab-footer-nav{
+        margin-left: -80px;
+     }
+
+     .tab-socmed-icons{
+        margin-left: -40px;
+     }
+
+     .footer-logo{
+        width: 220px;
+        height: 115px;
+     }
+
+     .footer-content{
+        margin-top: 60px;
+        margin-left: -100px;
+     }
+
+     .copyright{
+        text-align: center;
+     }
+
+
+
+     /* ================================================================ */
+     /* ================================================================ */
+
+     .login-bg{
+        height: 847px;
+        margin-bottom: -900px;
+     }
+  
+     .login-box{
+        margin-left: -320px;
+     }
+
+
+     /* ================================================================ */
+     /* ================================================================ */
+
+     .signup-bg{
+        height: 1014px;
+        margin-bottom: -900px;
+     }
+  
+     .signup-box{
+        margin-left: -320px;
+     }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+    header{
+        height: 161px;
+    }
+
+    .image-logo{
+        width: 230px;
+        height: 120px;
+        display: flex;
+        
+        margin-right: 80px;
+    }
+
+    nav{
+        display: none;
+    }
+
+
+
+     /* ================================================================ */
+
+
+     .slogan img{
+        height: 217px;
+        width: 100%;
+     }
+
+     .center h1{
+        font-size: 16px;
+     }
+
+
+     /* ================================================================ */
+
+     .about-title{
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+     }
+
+     .about-description{
+        font-size: 12px;
+        margin-bottom: 40px;
+     }
+
+     .about-background img{
+        height: 567px;
+     }
+
+     .six-about img{
+        width: 50px;
+        height: 50px;
+     }
+
+     .six-about p{
+        display: none;
+     }
+     
+     .six-about h3{
+        font-size: 16px;
+        margin-top: 20px;
+     }
+
+
+     .six-info{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       margin-top: -30px;
+     }
+
+
+     /* ================================================================ */
+
+    .job-section{
+        height: 841px;
+    }
+
+     .job-h3{
+        font-size: 20px;
+     }
+
+     .square{
+        width: 161px;
+        height: 145px;
+        margin-bottom: -50px;
+     }
+
+     .square img{
+        width: 50px;
+        height: 50px;
+        margin-left: 57px;
+        margin-top: 20px;
+     }
+
+     .square h2{
+        font-size: 16px;
+     }
+
+     .square h4{
+        font-size: 14px;
+        margin-top: -10px;
+     }
+
+     .job-listings{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, auto);  
+        margin-left: 10px;
+        margin-top: -60px;
+     }
+
+
+     /* ================================================================ */
+
+     .tips-section{
+        height: 1150px;
+     }
+
+
+     .tips-h3{
+        font-size: 20px;
+     }
+
+     .rectangle{
+        background-color: #EFEFEF;
+        padding: 0px;
+        height: 70px;
+        width: 350px;
+     }
+
+     .tab-tips-desc{
+        display: none;
+     }
+
+     .rectangle li{
+        list-style: none;
+        font-size: 14px;
+        margin-left: -30px;
+       
+     }
+
+     .check img{
+        width: 32px;
+        height: 32px;
+        margin-bottom: -50px;
+        margin-left: 50px;
+        
+     }
+
+     .rectangle img{
+        width: 48px;
+        height: 48px;
+        margin-right: 50px;
+     }
+
+     .six-tips{
+        display: flex;
+        flex-direction: column;
+     }
+
+
+
+     .interview h3{
+        font-size: 20px;
+     }
+
+
+     .first-image{
+        display: none;
+     }
+     .second-image{
+        width: 232px;
+        height: 146px;
+        margin-left: -20px;
+     }
+
+     .third-image{
+        width: 39px;
+        height: 26px;
+        margin-top: 90px;
+        margin-left: 80px;
+     }
+
+
+     /* ================================================================ */
+
+     #career-resources{
+        font-size: 20px;
+        padding-top: 50px;
+     }
+
+
+     .resources-bg-grey{
+        height: 700px;
+     }
+
+     .break-line{
+        display: none;
+     }
+
+     .resources-table{
+        display: none;
+     }
+
+     .table{
+        display: none;
+     }
+
+     .book-reccomendations {
+        margin-left: -130px;
+     }
+
+     .grid-container{
+        margin-left: -20px;
+        
+     }
+
+     .black-rectangle{
+        height: 230px;
+        width: 122px;
+        
+     }
+
+     .white-rectangle{
+        height: 211px;
+        width: 112px;
+     }
+
+
+     .book-content img{
+        height: 124px;
+        width: 95px;
+        margin-left: -3px;
+     }
+
+
+     .view-book{
+        height: 20px;
+        width: 105px;
+        margin-top: -120px;
+        margin-left: -6px;
+     }
+
+     .view-book h4{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 25px;
+        margin-left: -10px;
+     }
+
+
+     .book-content h6{
+        font-size: 10px;
+        margin-top: -70px;
+     }
+
+     .book-content p{
+        display: none;
+     }
+
+
+    .grid-container{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr); 
+     grid-gap: 30px; 
+     width: 300px; 
+     margin-left: -15px; 
+    }
+
+
+
+    /* ================================================================ */
+
+    .resources-white{
+        height: 1000px;
+    }
+
+    .green-SU img{
+        height: 218px;
+    }
+
+
+    .want-the-best h2{
+        font-size: 20px;
+        margin-left: -130px;
+        margin-bottom: -15px;
+        white-space: nowrap;
+    }
+
+    .want-the-best h4{
+        font-size: 12px;
+        margin-bottom: -5px;
+        margin-left: -145px;
+    }
+
+
+    .sign-up{
+        width: 100px;
+        height: 35px;
+        margin-left: -290px;
+        margin-bottom: -40px;
+    }
+
+    .signup-now{
+        position: absolute;
+        left: 160px !important;
+        top: -8px;
+    }
+
+
+
+     /* ================================================================ */
+
+
+
+     .footer-section{
+        height: 460px;
+     }
+
+     .hl-bottom, .hl-top{
+        width: 320px;
+     }
+
+     .hl-top{
+        margin-top: 60px;
+        margin-left: 35px;
+     }
+
+     .hl-bottom{
+        margin-top: 150px;
+        margin-left: 35px;
+     }
+
+     .footer-logo img{
+        width: 230px;
+        height: 120px;
+        margin-top: -50px;
+        margin-left: -15px;
+     }
+
+
+     .footer-nav{
+        font-size: 12px;
+        white-space: nowrap;
+        margin-top: 20px;
+        line-height: 40px;
+        margin-left: 40px;
+     }
+
+     .tab-socmed-icons{
+        margin-left: -580px;
+        margin-top: -220px;
+     }
+
+     .icon-names{
+        font-size: 12px;
+        line-height: 35px;
+        margin-top: -27px;
+     }
+
+
+     .copyright{
+        font-size: 10px;
+        margin-top: 15px;
+        text-align: center;
+     }
+
+
+     /* ================================================================ */
+     /* ================================================================ */
+
+     .login-bg{
+        height: 695px;
+     }
+
+     .login-box{
+        width: 332px;
+        height: 560px;
+        margin-left: -420px;
+     }
+
+     #username, #password{
+        width: 280px;
+        height: 50px;
+        margin-left: -13px;
+        margin-bottom: 20px;
+     }
+
+     #username{
+        margin-top: -10px;
+     }
+
+     .content h4{
+        font-size: 46px;
+        margin-top: 40px;
+     }
+
+     .content img{
+        width: 100px;
+        margin-top: -30px;
+        margin-left: -100px;
+     }
+
+
+     .login-lower{
+        width: 308px;
+        height: 68px;
+        margin-left: -15px;
+        margin-top: 30px;
+     }
+
+     #login-button{
+        font-size: 32px;
+     }
+
+     .login-lower h4{
+        font-size: 16px;
+        margin-top: -10px;
+     }
+
+
+
+
+     /* ================================================================ */
+     /* ================================================================ */
+
+
+     .signup-bg{
+        height: 800px;
+     }
+
+
+     .signup-box{
+        width: 332px;
+        height: 665px;
+        margin-left: -420px;
+     }
+
+     .signup-content h4{
+        margin-top: 40px;
+     }
+
+     .signup-content img{
+        width: 100px;
+        margin-top: -30px;
+        margin-left: -100px;
+     }
+
+
+     .signup-lower{
+        width: 308px;
+        height: 68px;
+        margin-left: -15px;
+        margin-top: 10px;
+     }
+
+     .signup-lower h4{
+        font-size: 16px;
+        margin-top: -70px;
+     }
+
+
+
+
+
+
+     /* ================================================================ */
+/* ================================================================ */
+
+    .overlay {
+        display: none; 
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        background-color: rgba(0, 0, 0, 0.5); 
+        z-index: 998; 
+        transition: opacity 0.3s; 
+    
+    }
+
+
+    .overlay.active {
+        display: block; 
+    }
+
+
+    .desktop-tablet-hidden, .hamburger{
+        display: block;
+      }
+
+
+    .hamburger {
+        font-size: 30px; 
+        cursor: pointer; 
+        color: white; 
+        display: block; 
+        margin-left: 30px;
+
+
+        z-index: 1000;
+       
+        
+    }
+
+
+
+    .sidebar {
+        width: 275px;
+        height: 100vh; 
+        background-color: #35434E; 
+        position: fixed; 
+        left: -275px; 
+        transition: left 0.3s; 
+        z-index: 999; 
+    }
+
+
+    .nav-button {
+        padding-top: 100px;
+    }
+
+    .nav-button h1 {
+        font-size: 14px;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .nav-button a{
+        text-decoration: none;
+    }
+
+    .nav-button img {
+        margin-left: 50px;
+    }
+
+
+    .sidebar.active {
+        left: 0; 
+    }
+
+
+
+
+
+
+}
+
+
+
+
+
+/* ================================================================ */
+/* ================================================================ */
+
+
+
+
+
+
+
+@media print {
+    body{
+        /* background-color: white;
+        color: black; */
+    }
+    .hamburger, .slogan img, .tqj-logo, .about-background img,.six-about p, .job-content img, .job-content a, .check, .rectangle img, .interview, .video, .resources-bg-grey, .green-SU, footer, .white-rectangle h4, .view-book, .book-content h6{
+        display: none;
+    }
+
+    .center{
+        margin-top: 50px; 
+    }
+
+    .center h1{
+        font-size: 40px;
+        
+    }
+
+ 
+    .about-title{
+        padding-top: 200px;
+        color: black;
+        font-size: 25px;
+    }
+
+    .about-description{
+        font-size: 15px;
+        color: lightgray;
+        margin-bottom: 70px;
+    }
+
+    .six-about-content h3{
+        color: lightgray;
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .six-info{
+        display: grid;
+    }
+
+    .job-section{
+        margin-top: 150px;
+    }
+
+    .job-h3-green{
+        color: black;
+    }
+
+    .job-h3{
+        font-size: 25px;
+        margin-top: 200px;
+    }
+
+    .square h2{
+        font-size: 20px;
+        color: lightgray;
+        margin-top: -50px;
+        white-space: nowrap;
+    }
+
+    .job-listings{
+        margin-top: -50px;
+        margin-left: 80px;
+    }
+
+    .job-content{
+        
+        margin-bottom: -50px;
+    }
+
+    .print-job-title{
+        padding-top: 50px;
+    }
+
+
+    #tips{
+        font-size: 25px;
+        margin-top: -200px;
+    }
+    
+
+    .six-tips{
+        display: grid;
+        margin-top: -200px;
+        padding-left: 150px;
+    }
+
+    .rectangle li{
+        font-size: 20px;
+        color: lightgray;
+    }
+
+
+    #career-resources{
+        margin-top: -950px;
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+
+    .book-reccomendations{
+        /* border: none;
+        font-size: 20px;
+        color: lightgray;
+        margin-left: 100px; */
+        display: none;
+    }
+
+    .grid-container{
+        margin-left: 200px;
+    }
+
+    .grid-container img{
+        height: 184px;
+        width: 155px;
+        filter: grayscale(100%);
+        margin-top: -100px;
+    }
+
+}
